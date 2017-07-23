@@ -1,8 +1,73 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+    box-sizing: border-box;
 }
 
-a {
-  color: #00B7FF;
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+header {
+    background-image: url(https://unsplash.it/1000/300);
+    height: 300;
+    color: white;
+    padding-top: 100px;
+}
+
+.left {
+    float: left;
+    padding: 10px;
+}
+
+.right {
+    float: right;
+    padding: 10px;
+}
+
+.left{
+    width: calc(100% / 1.5)
+}
+
+.right{
+    width: calc(100% / 4)
+}
+
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    height: 200px
+    position: relative;
+}
+
+.author {
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.author img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.author h3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.author p {
+    text-align: left;
 }
